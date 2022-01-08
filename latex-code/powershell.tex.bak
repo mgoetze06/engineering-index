@@ -4,4 +4,5 @@
 \$length = (\$input | Measure-Object).count\\
 \$String.Contains(\enquote{Substring})\\
 \$String.Substring(start,länge)\\
-\$date=(Get-Date).ToString("yyyy\_MM\_dd")
+\$date=(Get-Date).ToString("yyyy\_MM\_dd")\\
+Set-Location -Path relativerPfad
