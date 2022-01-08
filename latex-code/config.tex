@@ -1,5 +1,5 @@
 \documentclass[
-ngerman,
+german,
 english,
 paper = a4,
 %toc=flat,
@@ -47,8 +47,8 @@ usegeometry,
 
 %style=verbose-ibid,backend=bibtex
 %\usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
-\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
-\addbibresource{Literatur.bib}
+%\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+%\addbibresource{Literatur.bib}
 %custom footcite command for citation
 \newcommand{\myfootcite}[2]{\footnote{\citeauthor{#1}, \citetitle{#1}, S. {#2} \cite{#1}}}
 
@@ -57,22 +57,22 @@ usegeometry,
 \newcommand{\customcode}[1]{\colorbox{codeBackground}{\rlap{\textbf{#1}}\hspace{\linewidth}\hspace{-2\fboxsep}}}
 \usepackage{listings}
 \usepackage{makeidx}
-\usepackage{csquotes}
-\usepackage{svg}
+%\usepackage{csquotes}
+%\usepackage{svg}
 
 %\usepackage[bottom]{footmisc}
 %\usepackage[acronym,nopostdot,nogroupskip,style=super,nonumberlist,section=section]{glossaries}
 %\usepackage[acronym,nopostdot,nogroupskip,style=mcolalttree,nonumberlist]{glossaries}
-\usepackage[acronym,nopostdot,toc,style=super,nonumberlist,section=chapter]{glossaries}
-\makeglossaries
+%\usepackage[acronym,nopostdot,toc,style=super,nonumberlist,section=chapter]{glossaries}
+%\makeglossaries
 %\usepackage{scrlayer-scrpage}
 %\clearscrheadfoot
 %\ihead{\automark{}}
-\newenvironment{absolutelynopagebreak}
-  {\par\nobreak\vfil\penalty0\vfilneg
-   \vtop\bgroup}
-  {\par\xdef\tpd{\the\prevdepth}\egroup
-   \prevdepth=\tpd}
+%\newenvironment{absolutelynopagebreak}
+%  {\par\nobreak\vfil\penalty0\vfilneg
+%   \vtop\bgroup}
+%  {\par\xdef\tpd{\the\prevdepth}\egroup
+%   \prevdepth=\tpd}
 
 
 
@@ -94,7 +94,7 @@ usegeometry,
 \RedeclareSectionCommands[%
   beforeskip=-5ex,
   %afterskip=1pt plus .1\baselineskip minus .167\baselineskip
-  afterskip=0
+  afterskip=0pt
 ]{section,subsection,subsubsection}
 %#######################old pagestyle ###################################
 
@@ -123,11 +123,11 @@ usegeometry,
 
 \usepackage{graphicx} 
 \usepackage{pdfpages}
-\usepackage{siunitx}
-\sisetup{
-    locale=DE,
-    per-mode=fraction,
-}
+%\usepackage{siunitx}
+%\sisetup{
+%    locale=DE,
+%    per-mode=fraction,
+%}
 %Mathematische Audrücke
 \usepackage{amsmath,amssymb,amstext}
 %Einfügen von Grafiken
