@@ -92,9 +92,9 @@ usegeometry,
 %  afterskip=50pt
 %]{chapter}
 \RedeclareSectionCommands[%
-  beforeskip=-5ex,
+  beforeskip=0ex,
   %afterskip=1pt plus .1\baselineskip minus .167\baselineskip
-  afterskip=0pt
+  afterskip=0.1ex
 ]{section,subsection,subsubsection}
 %#######################old pagestyle ###################################
 
@@ -104,9 +104,9 @@ usegeometry,
 \RedeclareSectionCommand[
   prefixfont = \Large,% \bfseries\sffamily ist über Schriftelement disposition% voreingestellt
         font = \Huge,
-  beforeskip = -10ex,% minus, damit erster Abschnitt nicht eingezogen wird
+  beforeskip = -5ex,% minus, damit erster Abschnitt nicht eingezogen wird
    innerskip = 0cm,
-   afterskip = 1ex plus  0.2ex,
+   afterskip = 0ex
   ]{chapter}
  
 %\renewcommand\raggedchapter{\raggedleft}% Ausrichtung Kapitelüberschrift samt Präfixzeile
@@ -123,6 +123,7 @@ usegeometry,
 
 \usepackage{graphicx} 
 \usepackage{pdfpages}
+\usepackage{csquotes}
 %\usepackage{siunitx}
 %\sisetup{
 %    locale=DE,
