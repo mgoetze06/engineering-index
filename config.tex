@@ -1,0 +1,229 @@
+\documentclass[
+ngerman,
+english,
+paper = a4,
+%toc=flat,
+toc=chapterentrywithdots,
+captions=tableabove,
+listof=entryprefix,
+listof=leveldown,
+fontsize=12pt,
+numbers=noenddot,
+parskip,
+headsepline = true,
+footsepline = true,
+%listof = totoc,
+%bibliography = totoc,
+%index = totoc,
+plainfootsepline = true,
+plainheadsepline = true,
+footheight=25pt,
+headheight=25pt,
+usegeometry,
+]{scrreprt}
+
+
+
+% Laden der Pakete %
+\usepackage[ngerman,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{
+	includeheadfoot,
+	top = 15mm,
+	left = 20mm,
+	right = 25mm, 
+	bottom = 20mm,
+	bindingoffset = 10mm,
+	}
+
+%\usepackage[letterspace=150]{microtype}
+\usepackage[onehalfspacing]{setspace}
+\BeforeStartingTOC[toc]{\singlespacing} 
+\BeforeStartingTOC[lot]{\singlespacing\renewcommand\autodot{:}}
+\BeforeStartingTOC[lof]{\singlespacing\renewcommand\autodot{:}}
+
+%style=verbose-ibid,backend=bibtex
+%\usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+\addbibresource{Literatur.bib}
+%custom footcite command for citation
+\newcommand{\myfootcite}[2]{\footnote{\citeauthor{#1}, \citetitle{#1}, S. {#2} \cite{#1}}}
+
+\newcommand{\myRef}[1]{\autoref{#1} \textit{\nameref{#1}} (S. \pageref{#1})}
+\newcommand{\myfootref}[2]{\footnote{siehe \autoref{#1}, {#2}, S.\pageref{#1}}}
+\newcommand{\customcode}[1]{\colorbox{codeBackground}{\rlap{\textbf{#1}}\hspace{\linewidth}\hspace{-2\fboxsep}}}
+\usepackage{listings}
+\usepackage{makeidx}
+\usepackage{csquotes}
+\usepackage{svg}
+
+%\usepackage[bottom]{footmisc}
+%\usepackage[acronym,nopostdot,nogroupskip,style=super,nonumberlist,section=section]{glossaries}
+%\usepackage[acronym,nopostdot,nogroupskip,style=mcolalttree,nonumberlist]{glossaries}
+\usepackage[acronym,nopostdot,toc,style=super,nonumberlist,section=chapter]{glossaries}
+\makeglossaries
+%\usepackage{scrlayer-scrpage}
+%\clearscrheadfoot
+%\ihead{\automark{}}
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+
+
+
+%#######################old pagestyle ###################################
+%\cfoot{{--~}\pagemark{~--}}
+%\ofoot{Maurice Götze}
+%\ifoot{HTWK Leipzig}
+
+
+
+%\ohead{\headmark}
+%\automark{chapter}
+%\renewcommand*{\chapterpagestyle}{scrheadings}
+%\RedeclareSectionCommand[%
+%  beforeskip=150pt,
+%  afterskip=50pt
+%]{chapter}
+\RedeclareSectionCommands[%
+  beforeskip=-5ex,
+  %afterskip=1pt plus .1\baselineskip minus .167\baselineskip
+  afterskip=0
+]{section,subsection,subsubsection}
+%#######################old pagestyle ###################################
+
+
+
+%#############################pagestyle with chapter title############################
+\RedeclareSectionCommand[
+  prefixfont = \Large,% \bfseries\sffamily ist über Schriftelement disposition% voreingestellt
+        font = \Huge,
+  beforeskip = -10ex,% minus, damit erster Abschnitt nicht eingezogen wird
+   innerskip = 0cm,
+   afterskip = 1ex plus  0.2ex,
+  ]{chapter}
+ 
+%\renewcommand\raggedchapter{\raggedleft}% Ausrichtung Kapitelüberschrift samt Präfixzeile
+
+%\renewcommand\chapterformat{\textls*[600]{\chapapp}\space\space\HUGE\space\space\thechapter}
+%\newcommand\HUGE{\fontsize{100pt}{105pt}\selectfont}
+%#############################pagestyle with chapter title############################
+
+
+
+\usepackage{multicol} %zweispaltig
+\usepackage{paralist} %Aufzählungen mit kurzen Abständen
+\usepackage{enumitem}
+
+\usepackage{graphicx} 
+\usepackage{pdfpages}
+\usepackage{siunitx}
+\sisetup{
+    locale=DE,
+    per-mode=fraction,
+}
+%Mathematische Audrücke
+\usepackage{amsmath,amssymb,amstext}
+%Einfügen von Grafiken
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {./} }
+\usepackage{caption}
+\captionsetup{belowskip=-20pt}
+%Links im Inhaltsverzeichnis
+%\usepackage[hidelinks]{hyperref}
+\usepackage{wrapfig}
+
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{subfigure}
+\usepackage{makecell}
+
+%Neuerstellen eines Pagecounters
+\usepackage{xassoccnt}
+\newcounter{realpage}
+\DeclareAssociatedCounters{page}{realpage}
+\AtBeginDocument{%
+  \stepcounter{realpage}
+}
+
+%\usepackage{scrlayer-scrpage}                   % für Kopf- und Fußzeile
+%\clearpairofpagestyles
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\newcommand{\chaptercolor}{gray}
+\usepackage[hypertexnames=true,hidelinks=true]{hyperref}
+\definecolor{lst-gray}{rgb}{0.98,0.98,0.98}
+\definecolor{lst-blue}{RGB}{40,0.0,255}
+\definecolor{lst-green}{RGB}{65,128,95}
+\definecolor{lst-red}{RGB}{200,0,85}
+\definecolor{lst-variable}{RGB}{100,0,85}
+\usepackage{imakeidx}
+\usepackage{lastpage}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Quelltext}
+\renewcommand{\lstlistlistingname}{Quelltextverzeichnis}
+\input{Skripte/latex-listings-powershell}
+\lstset{
+  aboveskip=0.6\baselineskip,
+  commentstyle=\color{lst-green},
+  basicstyle=\small\ttfamily,
+  backgroundcolor=\color{lst-gray},
+  breaklines=true,
+  captionpos=b,
+  columns=fixed,
+  extendedchars=true,
+  frame=single,
+  framesep=2pt,
+  keepspaces=true,
+  keywordstyle=\color{lst-blue},
+  language={PowerShell},
+  numbers=left,
+  numberstyle=\tiny\ttfamily,
+  showstringspaces=false,
+  stringstyle=\color{lst-red},
+  tabsize=2,
+  %stepnumber=0
+  stepnumber=1,
+}
+
+
+\usepackage[
+  open,
+  openlevel=2,
+  atend,
+  numbered
+]{bookmark}
+
+%\addtokomafont{headsepline}{\color{gray}}
+%\addtokomafont{footsepline}{\color{gray}}
+%\renewcommand*{\chaptermarkformat}{}
+%\automark[]{chapter}
+
+%\ihead*{\color{\chaptercolor}Abschnitt \thesection: ~ \rigmarkmark }
+%\ohead{\color{\chaptercolor}\headmark}
+
+
+%\ohead*{\color{\chaptercolor}Kapitel \thechapter:~\headmark }
+%\cfoot*[\color{\chaptercolor}\pagemark]{\color{\chaptercolor}\pagemark}
+%\ifoot*[\color{\chaptercolor}HTWK Leipzig]{\color{\chaptercolor}HTWK Leipzig}
+%\ofoot*[\color{\chaptercolor}Maurice Götze]{\color{\chaptercolor}Maurice Götze}
+
+
+%\fancypagestyle{plain}{% Redefine ``plain'' style for chapter boundaries
+%    \fancyhf{} % clear all header and footer fields  
+%    \fancyfoot[C]{\color{\chaptercolor}\thepage} % except the center 
+%%    %\fancyfoot[R]{\color{\chaptercolor}Maurice Götze}
+ %   %\fancyfoot[L]{\color{\chaptercolor}HTWK Leipzig}
+ %   \renewcommand{\headrulewidth}{0pt}  
+ %   \renewcommand{\footrulewidth}{0.5pt}
+%}
+
+

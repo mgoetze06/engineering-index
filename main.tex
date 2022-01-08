@@ -1,0 +1,87 @@
+\input{config}
+%\AfterEndEnvironment{figure}{\noindent\ignorespaces}
+%\setlength{\belowcaptionskip}{-10pt}
+%\clearpairofpagestyles
+\definecolor{codeBackground}{rgb}{0.9,0.9,0.9}
+%\definecolor{gray}{rgb}{0.5,0.5,0.5}
+%\newcommand{\chaptercolor}{gray}
+%\addtokomafont{headsepline}{\color{gray}}
+%\addtokomafont{footsepline}{\color{gray}}
+%\renewcommand*{\chaptermarkformat}{}
+%\automark[chapter]{chapter}
+%\ohead{\color{\chaptercolor}\headmark}
+%\addtokomafont{footsepline}{\color{gray}}
+%%\cfoot*{\color{\chaptercolor}\pagemark}
+%\ifoot*{\color{\chaptercolor}HTWK Leipzig}
+%\ofoot*{\color{\chaptercolor}Maurice Götze}
+
+\makeindex
+%\newcounter{SeitenzahlVorEinleitung}
+\begin{document}
+%\pagenumbering{Roman}
+\def\header{
+    \vspace{5cm}
+  \begin{center}
+    {\vspace{5cm}\Huge \textbf{Engineering Index}}\\\vspace{2cm}
+        {\large \underline{Nützliches für den Ingenieursalltag}\\\vspace{5cm}
+               zuletzt übersetzt:\\\today\\\vspace{1cm}
+        erstellt von:\\Maurice Götze\\\vspace{1cm}\url{https://github.com/mgoetze06}
+        
+        }
+  \end{center}
+}
+%\begingroup
+\thispagestyle{empty}
+
+\header
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+%\endgroup
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+    \fancyhf{}
+    \fancyfoot[C]{\color{\chaptercolor}\thepage /\pageref*{LastPage}}
+    %\fancyhead[R]{\rigthmark}
+    \fancyhead[R]{\color{\chaptercolor}\leftmark}%
+    \renewcommand{\headrulewidth}{0.5pt}
+    %\renewcommand{\headrule}{\hbox to\headwidth{\color{\chaptercolor}\leaders\hrule height \headrulewidth\hfill}}
+    \renewcommand{\footrulewidth}{0.5pt}
+    %\renewcommand{\footrule}{\hbox to\headwidth{\color{\chaptercolor}\leaders\hrule height \footrulewidth\hfill}}
+    
+\begingroup
+\let\clearpage\relax
+\input{powershell}
+\input{powershell}
+
+
+
+%\printbibheading[heading=bibintoc,title={Literaturverzeichnis}]
+%\printbibliography[type=book,heading=subbibliography,title={Bücher}] %\printbibliography[type=misc,heading=subbibliography,title={Onlinedokumente}]
+%\printbibliography[type=article,heading=subbibliography,title={Artikel}]
+
+%\listoffigures
+%\listoftables
+%\lstlistoflistings
+
+%\printglossary[type=\acronymtype,title={Abkürzungsverzeichnis}]
+
+\endgroup
+Verweis \see{Verweis}.
+Gold \see{Gold}\\
+Gold\index{Gold}\\
+
+%\input{Wartungsabfrage}
+%\endgroup
+\printindex
+
+
+
+
+\end{document}
