@@ -13,3 +13,4 @@ Set-Location -Path $destination_file.path
 git add .
 git commit -m "index updated, new pdf created"
 git push https://github.com/mgoetze06/engineering-index
+$newfile

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  8 JAN 2022 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  8 JAN 2022 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,17 +966,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
 ) (./git.tex
 chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--8
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 
-     [1]) (./bash.tex [2]
+l.1 \chapter{git}
+                  [1]
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+ []
+
+) (./bash.tex [2]
 chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -1003,19 +1003,19 @@ AED: lastpage setting LastPage
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 22981 strings out of 478369
- 410947 string characters out of 5852791
- 1286078 words of memory out of 5000000
- 40689 multiletter control sequences out of 15000+600000
+ 22983 strings out of 478369
+ 410977 string characters out of 5852791
+ 1285078 words of memory out of 5000000
+ 40691 multiletter control sequences out of 15000+600000
  456034 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,109p,21078b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,11n,109p,21078b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-d
 ist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
 b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (6 pages, 124192 bytes).
+Output written on main.pdf (6 pages, 124482 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
