@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  8 JAN 2022 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  8 JAN 2022 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,8 +956,10 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              deprecated \float@addtolist interface.
 
 ! Undefined control sequence.
-l.9 Copy-Item "oldfile.extension" "C:\Users
-                                           \Maurice\Documents\Engineering In...
+<argument> C:\Users 
+                    \Maurice \Documents \Engineering Index\2022_01_08_engine...
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -965,8 +967,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.9 ...-Item "oldfile.extension" "C:\Users\Maurice
-                                                  \Documents\Engineering Ind...
+<argument> C:\Users \Maurice 
+                             \Documents \Engineering Index\2022_01_08_engine...
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -974,8 +978,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.9 ...file.extension" "C:\Users\Maurice\Documents
-                                                  \Engineering Index\2022_01...
+<argument> C:\Users \Maurice \Documents 
+                                        \Engineering Index\2022_01_08_engine...
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -983,8 +989,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.9 ...on" "C:\Users\Maurice\Documents\Engineering
-                                                   Index\2022_01_08_engineer...
+<argument> ...rs \Maurice \Documents \Engineering 
+                                                  Index\2022_01_08_engineeri...
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -992,8 +1000,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.9 ...Users\Maurice\Documents\Engineering Index\2
+<argument> ...rice \Documents \Engineering Index\2
                                                   022_01_08_engineering_inde...
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1003,36 +1013,61 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.9 ...s\Maurice\Documents\Engineering Index\2022_
-                                                  01_08_engineering_index.pdf"
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-)
-Runaway argument?
-! File ended while scanning use of \language@active@arg".
-<inserted text> 
-                \par 
-l.60 \input{powershell}
-                       
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
-(./unixcommands.tex
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 9.
+
+
+! Package csquotes Error: Unbalanced groups or invalid nesting.
+
+See the csquotes package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
+I have detected a group type mismatch. Verify that all groups
+and all active quotes are properly balanced and nested. If you
+continue, I will write a summary of all previously opened groups
+to the transcript file.
+
+
+### math shift group (level 3) entered at line 9 ($)
+### semi simple group (level 2) entered at line 9 (\begingroup)
+### semi simple group (level 1) entered at line 58 (\begingroup)
+### bottom level
+
+! OK.
+\csq@err@gtype ...the transcript file}\showgroups 
+                                                  
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+l.9 ...ing Index\2022_01_08_engineering_index.pdf}
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (./unixcommands.tex
+Overfull \hbox (84.68788pt too wide) in paragraph at lines 3--1
+\T1/lmr/m/n/12 Set-Location -Path re-la-ti-ver-Pfad Copy-Item ^^R  old-fi-le.ex
+tension^^P ^^R   C:Index022$[]\OT1/lmr/m/n/12 1[]8[]\OML/lmm/m/it/12 ngineering
+[]ndex:pdf\OT1/lmr/m/n/12 ^^P[]$ 
+ []
 
 
-Overfull \hbox (67.81377pt too wide) in paragraph at lines 3--1
-\T1/lmr/m/n/12 Set-Location -Path re-la-ti-ver-Pfad Copy-Item öld-fi-le.extensi
-onC:Index022$[]\OT1/lmr/m/n/12 1[]8[]\OML/lmm/m/it/12 ngineering[]ndex:pdf$ 
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
  []
 
 chapter 2.
@@ -1043,14 +1078,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-) (./git.tex
-chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter{git}
-                  [1]
+l.12 \begin{verbatim} \end{verbatim\}
+                                      [1]) (./git.tex
+chapter 4.
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
@@ -1082,13 +1117,13 @@ AED: lastpage setting LastPage
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 22983 strings out of 478369
- 410977 string characters out of 5852791
+ 22985 strings out of 478369
+ 410972 string characters out of 5852791
  1285078 words of memory out of 5000000
- 40691 multiletter control sequences out of 15000+600000
+ 40693 multiletter control sequences out of 15000+600000
  456034 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,109p,21078b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,7n,109p,21078b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
 xlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-d
 ist/fonts/enc/dvips/lm/lm-rm.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public
@@ -1098,7 +1133,7 @@ ist/fonts/enc/dvips/lm/lm-rm.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public
 ublic/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
 <c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (6 pages, 151339 bytes).
+Output written on main.pdf (6 pages, 150920 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
