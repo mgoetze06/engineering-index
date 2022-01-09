@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,10 +1014,10 @@ AED: lastpage setting LastPage
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25822 strings out of 478369
- 469877 string characters out of 5852791
- 1360609 words of memory out of 5000000
- 43494 multiletter control sequences out of 15000+600000
+ 25825 strings out of 478369
+ 469912 string characters out of 5852791
+ 1352609 words of memory out of 5000000
+ 43496 multiletter control sequences out of 15000+600000
  465650 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,11n,109p,21078b,3496s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1028,10 +1028,10 @@ lic/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
 b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/
 type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (7 pages, 180022 bytes).
+Output written on main.pdf (7 pages, 180582 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
