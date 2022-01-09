@@ -57,7 +57,6 @@ usegeometry,
 \newcommand{\customcode}[1]{\colorbox{codeBackground}{\rlap{\textbf{#1}}\hspace{\linewidth}\hspace{-2\fboxsep}}}
 \usepackage{listings}
 \usepackage{makeidx}
-\usepackage{fancyvrb}
 %\usepackage{csquotes}
 %\usepackage{svg}
 
