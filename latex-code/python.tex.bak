@@ -6,14 +6,11 @@ cwd = os.getcwd()\\
 Text Input From a File:\\
 with open(fullpath, 'r') as f:
 f.read()\\
-
-
-pip install imap\_tools
+pip install imap\_tools\\
 from imap\_tools import MailBox, AND\\
 server = imap.web.de\\
 mb = MailBox(server).login(user, password)\\
 messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)\\
-\smallskip
 pip install html2text\\
 import html2text\\
 text = html2text.html2text(msg.html)\\
