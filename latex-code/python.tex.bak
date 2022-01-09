@@ -5,14 +5,14 @@ from pathlib import Path
 parentPath = path.parent.absolute()
 \end{verbatim}
 Current Working Directory
-\begin{verbatim}[frame=single,baselinestretch=0.1]
+\begin{Verbatim}[frame=single,baselinestretch=0.1]
 cwd = os.getcwd()
-\end{verbatim}
+\end{Verbatim}
 Text Input From a File:
-\begin{verbatim}[frame=single,baselinestretch=0.1]
+\begin{Verbatim}[frame=single,baselinestretch=0.1]
 with open(fullpath, 'r') as f:\\
 f.read()
-\end{verbatim}
+\end{Verbatim}
 Connect to IMAP Server
 \begin{verbatim}
 pip install imap_tools
