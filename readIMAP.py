@@ -58,7 +58,7 @@ for msg in messages:
         output = json.dumps(x)
         print(output)
         #verschieben der mail, wenn sie verarbeitet wurde (beim nächsten mal nicht mehr berücksichtigen
-        #mb.move(msg.uid, 'Verarbeitet')
+        mb.move(msg.uid, 'Verarbeitet')
 
         
     # Print the plain text (if there is one)

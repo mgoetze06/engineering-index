@@ -1,1 +1,1 @@
-{"updates": [{"sender": "99mg24@web.de", "subject": "Update Index", "htmltext": "\n\n", "text": "python\r\ndata = json.load(file)\r\ndata.append(newdata)\r\njson.dump(data,file)\r\n", "implemented": "true"}, {"sender": "99mg24@web.de", "subject": "Update Index", "htmltext": "\n\n", "text": "python\r\nnew python command\n", "implemented": "true"}]}
+{"updates": [{"sender": "99mg24@web.de", "subject": "Update Index", "htmltext": "\n\n", "text": "powershell\r\nGet-Member\r\ngm\r\n", "implemented": "true"}]}

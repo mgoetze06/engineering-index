@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,11 +963,12 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-) (./unixcommands.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
+) (./unixcommands.tex
 chapter 2.
 ) (./latex.tex
 chapter 3.
@@ -980,8 +981,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 \begin{verbatim} \end{verbatim\}
-                                      [1]) (./git.tex
+l.7 \begin{verbatim}
+                     [1]) (./git.tex
 chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
@@ -1012,30 +1013,26 @@ AED: lastpage setting LastPage
 [6
 
 
-] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25855 strings out of 478369
- 470290 string characters out of 5852791
+ 25861 strings out of 478369
+ 470371 string characters out of 5852791
  1390609 words of memory out of 5000000
- 43505 multiletter control sequences out of 15000+600000
+ 43506 multiletter control sequences out of 15000+600000
  465650 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,109p,21078b,3496s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2021/tex
-mf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type
-1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.
-pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/
-2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fo
-nts/type1/public/lm/lmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/l
-m/lmtt8.pfb>
-Output written on main.pdf (8 pages, 183327 bytes).
+ 113i,11n,109p,21078b,3411s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/te
+xlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
+b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021
+/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/
+type1/public/lm/lmtt8.pfb>
+Output written on main.pdf (8 pages, 184146 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 64 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
