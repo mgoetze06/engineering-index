@@ -8,6 +8,7 @@ parentPath = path.parent.absolute()
 \begin{lstlisting}[language=Python]
 import os
 cwd = os.getcwd()
+os.chdir('/tmp')
 \end{lstlisting}
 \textbf{Text Input From a File}
 \begin{lstlisting}
@@ -16,7 +17,6 @@ f.read()
 \end{lstlisting}
 \textbf{Connect to IMAP Server}
 \begin{lstlisting}
-\afterskip=-5ex
 pip install imap_tools
 from imap_tools import MailBox, AND
 server = imap.web.de
@@ -28,4 +28,30 @@ messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)
 pip install html2text
 import html2text
 text = html2text.html2text(msg.html)
+\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+data = json.load(file)
+
+data.append(newdata)
+
+json.dump(data,file)
+
+\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+new python command
+\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+data = json.load(file)
+
+data.append(newdata)
+
+json.dump(data,file)
+
+\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+new python command
 \end{lstlisting}

@@ -37,16 +37,15 @@ for msg in messages:
     if "Update Index" in msg.subject:
         print("Updating Index ....")
         #print(msg.text)
-        htmltext = html2text.html2text(msg.html)
-        print(htmltext)
+        text = html2text.html2text(msg.html)
+        print(text)
         #print(msg)
 
         #new python object
         x = {
             "sender": msg.from_,
             "subject": msg.subject,
-            "htmltext": htmltext,
-            "text": msg.text,
+            "text": text,
             "implemented": "false"
         }
         with open('indexupdates.json', 'r+') as f:

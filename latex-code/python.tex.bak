@@ -8,6 +8,7 @@ parentPath = path.parent.absolute()
 \begin{lstlisting}[language=Python]
 import os
 cwd = os.getcwd()
+os.chdir('/tmp')
 \end{lstlisting}
 \textbf{Text Input From a File}
 \begin{lstlisting}
@@ -27,4 +28,33 @@ messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)
 pip install html2text
 import html2text
 text = html2text.html2text(msg.html)
+\end{lstlisting}
+	extbf{neuer Befehl}egin{lstlisting}
+
+data = json.load(file)
+
+data.append(newdata)
+
+json.dump(data,file)
+
+\end{lstlisting}
+	extbf{neuer Befehl}egin{lstlisting}
+
+new python command
+\end{lstlisting}\n\textbf{neuer Befehl}\begin{lstlisting}\n\ndata = json.load(file)
+\ndata.append(newdata)
+\njson.dump(data,file)
+\n\end{lstlisting}\n\textbf{neuer Befehl}\begin{lstlisting}\n\nnew python command\n\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+data = json.load(file)
+
+data.append(newdata)
+
+json.dump(data,file)
+
+\end{lstlisting}
+\textbf{neuer Befehl}\begin{lstlisting}
+
+new python command
 \end{lstlisting}
