@@ -51,7 +51,7 @@ with open('indexupdates.json', 'r') as f:
                 texdata = texfile.read()
                 texdata += '\n\\textbf{neuer Befehl}\\begin{lstlisting}'
                 for command in commands.split("\n"):
-                    #texdata += '\n'
+                    texdata += '\n'
                     texdata += command
                 texdata += '\end{lstlisting}'
                 #texfile.write(texdata)

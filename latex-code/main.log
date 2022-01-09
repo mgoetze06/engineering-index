@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,6 +968,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
+
+Package Listings Warning: Text dropped after begin of listing on input line 18.
+
+
 ) (./unixcommands.tex
 chapter 2.
 ) (./latex.tex
@@ -981,8 +985,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 \begin{verbatim}
-                     [1]) (./git.tex
+l.4 
+     [1]) (./git.tex
 chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
@@ -1015,10 +1019,10 @@ AED: lastpage setting LastPage
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25861 strings out of 478369
- 470371 string characters out of 5852791
+ 25863 strings out of 478369
+ 470400 string characters out of 5852791
  1390609 words of memory out of 5000000
- 43506 multiletter control sequences out of 15000+600000
+ 43507 multiletter control sequences out of 15000+600000
  465650 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,11n,109p,21078b,3411s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1029,10 +1033,10 @@ lic/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
 b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/
 type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (8 pages, 184146 bytes).
+Output written on main.pdf (8 pages, 184240 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 65 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
