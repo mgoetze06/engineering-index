@@ -62,7 +62,7 @@
 \input{latex}
 \input{git}
 \input{bash}
-\input{python}
+
 
 
 %\printbibheading[heading=bibintoc,title={Literaturverzeichnis}]

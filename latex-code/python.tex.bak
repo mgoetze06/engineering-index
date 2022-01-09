@@ -1,0 +1,9 @@
+\chapter{Powershell}\label{chap:Powershell}
+\section{Funktionen}
+\$input = Get-Content \enquote{input.txt}\\
+\$length = (\$input | Measure-Object).count\\
+\$String.Contains(\enquote{Substring})\\
+\$String.Substring(start,länge)\\
+\$date=(Get-Date).ToString("yyyy\_MM\_dd")\\
+Set-Location -Path relativerPfad\\
+Copy-Item \enquote{oldfile.extension} \enquote{C:\textbackslash newfile.extension}\\
