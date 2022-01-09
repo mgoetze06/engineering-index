@@ -1,20 +1,29 @@
 \chapter{Python}\label{chap:Python}
+Parent Directory
 \begin{verbatim}
-from pathlib import Path\\
+from pathlib import Path
 parentPath = path.parent.absolute()
 \end{verbatim}
+Current Working Directory
 \begin{verbatim}
-Current Working Directory:\\
-cwd = os.getcwd()\medskip\\
+cwd = os.getcwd()
 \end{verbatim}
-Text Input From a File:\\
+Text Input From a File:
+\begin{verbatim}
 with open(fullpath, 'r') as f:\\
-f.read()\medskip\\
-pip install imap\_tools\\
-from imap\_tools import MailBox, AND\\
-server = imap.web.de\\
-mb = MailBox(server).login(user, password)\\
-messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)\\
-pip install html2text\\
-import html2text\\
-text = html2text.html2text(msg.html)\\
+f.read()
+\end{verbatim}
+Connect to IMAP Server
+\begin{verbatim}
+pip install imap_tools
+from imap_tools import MailBox, AND
+server = imap.web.de
+mb = MailBox(server).login(user, password)
+messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)
+\end{verbatim}
+HTML zu Text umwandeln
+\begin{verbatim}
+pip install html2text
+import html2text
+text = html2text.html2text(msg.html)
+\end{verbatim}
