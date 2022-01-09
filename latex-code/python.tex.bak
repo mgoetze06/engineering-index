@@ -1,13 +1,13 @@
 \chapter{Python}\label{chap:Python}
 from pathlib import Path\\
-parentPath = path.parent.absolute\(\)\\
+parentPath = path.parent.absolute()\\
 Current Working Directory:\\
-cwd = os.getcwd\(\)\\
+cwd = os.getcwd()\\
 Text Input From a File:\\
-with open\(fullpath, 'r'\) as f:
-f.read\(\)\\
+with open(fullpath, 'r') as f:
+f.read()\\
 
 from imap_tools import MailBox, AND\\
-server \= imap.web.de\\
-mb \= MailBox\(server\).login\(user, password\)
-messages \= mb.fetch\(criteria \= 'ALL',mark_seen\=False,bulk\=True\)
+server = imap.web.de\\
+mb = MailBox(server).login(user, password)
+messages = mb.fetch(criteria \= 'ALL',mark_seen\=False,bulk\=True)

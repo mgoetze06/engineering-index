@@ -8,6 +8,6 @@ with open(fullpath, 'r') as f:
 f.read()\\
 
 from imap_tools import MailBox, AND\\
-server \= imap.web.de\\
-mb \= MailBox(server).login(user, password)
-messages \= mb.fetch(criteria \= 'ALL',mark_seen\=False,bulk\=True)
+server = imap.web.de\\
+mb = MailBox(server).login(user, password)\\
+messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)

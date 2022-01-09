@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,82 +1002,6 @@ l.10 from imap_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-LaTeX Warning: Command \= invalid in math mode on input line 11.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.11 server \= i
-                map.web.de\\
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 12.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.12 mb \= M
-            ailBox(server).login(user, password)
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 messages \= m
-                  b.fetch(criteria \= 'ALL',mark_seen\=False,bulk\=True)
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 messages \= mb.fetch(criteria \= '
-                                       ALL',mark_seen\=False,bulk\=True)
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.13 messages \= mb.fetch(criteria \= '
-                                       ALL',mark_seen\=False,bulk\=True)
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ...\= mb.fetch(criteria \= 'ALL',mark_seen\=F
-                                                  alse,bulk\=True)
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ...criteria \= 'ALL',mark_seen\=False,bulk\=T
-                                                  rue)
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
 )
 ! Missing $ inserted.
 <inserted text> 
@@ -1086,25 +1010,6 @@ l.66
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.66 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (109.63387pt too wide) in paragraph at lines 10--66
-\OML/lmm/m/it/12 mb[]ailBox\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 server\OT1/lmr/m/n
-/12 )\OML/lmm/m/it/12 :login\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 user; password\OT
-1/lmr/m/n/12 )\OML/lmm/m/it/12 messages[]b:fetch\OT1/lmr/m/n/12 (\OML/lmm/m/it/
-12 criteria[]$ 
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--82
@@ -1138,7 +1043,7 @@ public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pf
 b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/20
 21/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2021/texmf-dist/fonts
 /type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (6 pages, 144250 bytes).
+Output written on main.pdf (6 pages, 143952 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
