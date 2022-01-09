@@ -9,7 +9,7 @@ Current Working Directory
 cwd = os.getcwd()
 \end{Verbatim}
 Text Input From a File:
-\begin{Verbatim}[frame=single,baselinestretch=0.1]
+\begin{Verbatim}[frame=single,baselinestretch=0.01]
 with open(fullpath, 'r') as f:\\
 f.read()
 \end{Verbatim}
