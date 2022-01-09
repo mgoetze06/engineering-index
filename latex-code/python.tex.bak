@@ -7,7 +7,9 @@ Text Input From a File:\\
 with open(fullpath, 'r') as f:
 f.read()\\
 
-from imap_tools import MailBox, AND\\
+
+pip install imap\_tools
+from imap\_tools import MailBox, AND\\
 server = imap.web.de\\
-mb = MailBox(server).login(user, password)
-messages = mb.fetch(criteria \= 'ALL',mark_seen\=False,bulk\=True)
+mb = MailBox(server).login(user, password)\\
+messages = mb.fetch(criteria = 'ALL',mark_seen=False,bulk=True)
