@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -989,34 +989,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 ) (./python.tex
 chapter 6.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 messages = mb.fetch(criteria = 'ALL',mark_
-                                               seen=False,bulk=True)\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.66 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--66
-
- []
-
-
+[3])
 Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-[3] [4]
+[4]
 runsystem(makeindex main.idx)...executed safely (allowed).
 
 (./main.ind) 
@@ -1024,11 +1002,7 @@ AED: lastpage setting LastPage
 [5
 
 
-] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  22993 strings out of 478369
  411088 string characters out of 5852791
@@ -1036,19 +1010,16 @@ Here is how much of TeX's memory you used:
  40696 multiletter control sequences out of 15000+600000
  456034 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,109p,21078b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/tex
-mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvip
-s/lm/lm-mathit.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
-><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/
-texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri1
-2.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texliv
-e/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (7 pages, 141567 bytes).
+ 113i,11n,109p,21078b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/te
+xlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/lm/lmri12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
+b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (7 pages, 129833 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 116 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  18 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
