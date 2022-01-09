@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 12:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.8)  9 JAN 2022 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,22 +1020,9 @@ LaTeX Warning: Command \= invalid in math mode on input line 12.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
 l.12 mb \= M
-            ailBox\(server\).login\(user, password\)
+            ailBox(server).login(user, password)
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 mb \= MailBox\(
-                    server\).login\(user, password\)
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 LaTeX Warning: Command \= invalid in math mode on input line 13.
@@ -1043,16 +1030,27 @@ LaTeX Warning: Command \= invalid in math mode on input line 13.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.13 messages \= mb.fetch\(criteria \= '
-                                        ALL',mark_seen\=False,bulk\=True\)
+l.13 messages \= m
+                  b.fetch(criteria \= 'ALL',mark_seen\=False,bulk\=True)
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \= invalid in math mode on input line 13.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.13 messages \= mb.fetch(criteria \= '
+                                       ALL',mark_seen\=False,bulk\=True)
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.13 messages \= mb.fetch\(criteria \= '
-                                        ALL',mark_seen\=False,bulk\=True\)
+l.13 messages \= mb.fetch(criteria \= '
+                                       ALL',mark_seen\=False,bulk\=True)
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -1064,8 +1062,8 @@ LaTeX Warning: Command \= invalid in math mode on input line 13.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.13 ...= mb.fetch\(criteria \= 'ALL',mark_seen\=F
-                                                  alse,bulk\=True\)
+l.13 ...\= mb.fetch(criteria \= 'ALL',mark_seen\=F
+                                                  alse,bulk\=True)
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -1076,30 +1074,36 @@ LaTeX Warning: Command \= invalid in math mode on input line 13.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
 l.13 ...criteria \= 'ALL',mark_seen\=False,bulk\=T
-                                                  rue\)
+                                                  rue)
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
+
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.13 ...ria \= 'ALL',mark_seen\=False,bulk\=True\)
-                                                  
+l.66 
+     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
-Overfull \hbox (67.16603pt too wide) in paragraph at lines 10--66
-\OML/lmm/m/it/12 mb[]ailBoxserver$\T1/lmr/m/n/12 .login$\OML/lmm/m/it/12 user; 
-password$ \T1/lmr/m/n/12 mes-sa-ges 	mb.fetch$\OML/lmm/m/it/12 criteria[]$
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--66
-
+Overfull \hbox (109.63387pt too wide) in paragraph at lines 10--66
+\OML/lmm/m/it/12 mb[]ailBox\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 server\OT1/lmr/m/n
+/12 )\OML/lmm/m/it/12 :login\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 user; password\OT
+1/lmr/m/n/12 )\OML/lmm/m/it/12 messages[]b:fetch\OT1/lmr/m/n/12 (\OML/lmm/m/it/
+12 criteria[]$ 
  []
 
 
@@ -1115,11 +1119,7 @@ AED: lastpage setting LastPage
 [4
 
 
-] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  22990 strings out of 478369
  411045 string characters out of 5852791
@@ -1128,20 +1128,20 @@ Here is how much of TeX's memory you used:
  456034 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,7n,109p,21078b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/tex
-mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvip
-s/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/
-texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr1
-2.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/
-2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2021/texmf-dist/
-fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
-lm/lmtt12.pfb>
-Output written on main.pdf (6 pages, 143897 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
+xlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm
+/lm-mathit.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:
+/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texm
+f-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
+public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri12.pf
+b><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/20
+21/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (6 pages, 144250 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 132 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

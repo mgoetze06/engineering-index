@@ -1,9 +1,13 @@
-\chapter{Powershell}\label{chap:Powershell}
-\section{Funktionen}
-\$input = Get-Content \enquote{input.txt}\\
-\$length = (\$input | Measure-Object).count\\
-\$String.Contains(\enquote{Substring})\\
-\$String.Substring(start,länge)\\
-\$date=(Get-Date).ToString("yyyy\_MM\_dd")\\
-Set-Location -Path relativerPfad\\
-Copy-Item \enquote{oldfile.extension} \enquote{C:\textbackslash newfile.extension}\\
+\chapter{Python}\label{chap:Python}
+from pathlib import Path\\
+parentPath = path.parent.absolute\(\)\\
+Current Working Directory:\\
+cwd = os.getcwd\(\)\\
+Text Input From a File:\\
+with open\(fullpath, 'r'\) as f:
+f.read\(\)\\
+
+from imap_tools import MailBox, AND\\
+server \= imap.web.de\\
+mb \= MailBox\(server\).login\(user, password\)
+messages \= mb.fetch\(criteria \= 'ALL',mark_seen\=False,bulk\=True\)
