@@ -4,7 +4,7 @@ parentPath = path.parent.absolute()\\
 Current Working Directory:\\
 cwd = os.getcwd()\\
 Text Input From a File:\\
-with open(fullpath, 'r') as f:
+with open(fullpath, 'r') as f:\\
 f.read()\\
 pip install imap\_tools\\
 from imap\_tools import MailBox, AND\\
